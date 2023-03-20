@@ -5,3 +5,62 @@ header {
 header > img {
     height: 5rem;
 }
+
+.Logo_class {
+    
+    /* APARIENCIA */
+    max-width: 40rem;
+    height: 100vh;
+
+
+
+    /*Posición y posición de hijos */
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    /*Comportamiento*/
+
+}
+
+.Logo_class > h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+
+.clases_vinculos > a {
+    cursor: pointer; 
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0rem;
+    padding: 2rem 9rem;
+    justify-content: space-between;
+
+    display: block;
+    text-decoration: none;
+}
+
+.images {
+    cursor: pointer; 
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0rem;
+    padding: 2rem 9rem;
+    justify-content: space-between;
+
+    display: block;
+    text-decoration: none;
+}
+
+.images > button {
+    cursor: pointer; 
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 0rem;
+    padding: 1rem 0rem;
+
+    text-decoration: none;
+    background-color: var(--color12);
+}
