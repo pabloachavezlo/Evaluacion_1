@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color1);
+}
+
+
+
+:root {
+    --color1:  black;
+    --color2: rgb(17, 14, 14);
+    --color3:  navy;
+    --color4:  aliceblue;
+    --color5:  rgb(13, 13, 34);
+    --color6:  rgb(0, 0, 46);
+    --color7:  rgb(0, 47, 255);
+    --color8:  lightseagreen;
+    --color9:  rgb(20, 135, 180);
+    --color10:  rgb(65, 129, 129);
+    --color11:  darkred;
+    --color12:  crimson;
+    --color13:  rgb(97, 3, 3);
+    --color14:  lightsalmon;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Tilt Neon', cursive;
+    color: crimson;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Tilt Neon', cursive;
+    background-color: var(--color12);
+    display: block;
+}
