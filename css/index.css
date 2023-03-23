@@ -6,6 +6,31 @@ header > img {
     height: 5rem;
 }
 
+.menu_aqui > img {
+
+    height: 8rem;
+    background-color: var(--color5);
+    box-shadow: 0px 4px 4px var(--color2);
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border: 1px solid var(--color2);
+    border-radius: 8px;
+
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.activar {
+    display: flex;
+    transition: 0.5s;
+}
+
 .Logo_class {
     
     /* APARIENCIA */
@@ -20,8 +45,6 @@ header > img {
     padding: 1rem;
 
     /*Comportamiento*/
-
-    display: none;
 
 }
 
