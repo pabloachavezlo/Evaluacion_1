@@ -21,6 +21,8 @@ header > img {
 
     /*Comportamiento*/
 
+    display: none;
+
 }
 
 .Logo_class > h1 {
